@@ -10,7 +10,7 @@ public class Jenkins_demo {
 	@Test
 	public void testgooglrsearch() {
 
-		System.setProperty("webdriver.chrome.driver", "/Users/Shared/Jenkins/Home/workspace/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "//Users//sandy.ting.shan//Documents//Selenium//chromedriver");
 		WebDriver driver = new ChromeDriver();
 		// it will open the goggle page
 		driver.get("https://www.fotor.com.cn/");
